@@ -74,9 +74,4 @@ g++ -std=c++17 -O2 main.cpp Monitor_win.cpp -o iso-kernos.exe -ldxgi
 cl /std:c++17 /O2 main.cpp Monitor_win.cpp /link dxgi.lib kernel32.lib
 .\iso-kernos.exe
 ```
-
----
-
-## License
-
-MIT 
+ 
